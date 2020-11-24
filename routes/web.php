@@ -3,11 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    dd(app());
-});
-
-Route::get('main', function () {
-   return 123;
+    return "welcome";
 });
 
 Auth::routes();
